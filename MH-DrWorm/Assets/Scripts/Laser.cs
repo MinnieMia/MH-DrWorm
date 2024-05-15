@@ -52,7 +52,7 @@ public class Laser : MonoBehaviour
             {
                 playerDeath = true;
                 OnHitPlayer.Invoke();
-                //game.PlayerHit();
+                game.PlayerHit();
             }
         }
 
@@ -60,3 +60,4 @@ public class Laser : MonoBehaviour
         lineRenderer.SetPosition(1, endPoint);
     }
 }
+
